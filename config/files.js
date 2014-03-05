@@ -28,13 +28,12 @@ module.exports = function(lineman) {
       ]
     },
 
-    less: {
+    sass: {
       compile: {
         options: {
-          paths: [
-            "vendor/css/normalize.css",
-            "vendor/css/**/*.css",
-            "app/css/**/*.less"
+          loadPath: [
+            "vendor/bower/foundation/*.scss",
+            "app/css/**/*.scss"
           ]
         }
       }

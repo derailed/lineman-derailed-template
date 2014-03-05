@@ -23,11 +23,12 @@ module.exports = function(lineman) {
       "grunt-concat-sourcemap",
       "grunt-haml",
       "grunt-ngmin",
-      "grunt-bower-task"
+      "grunt-bower-task",
+      "grunt-contrib-sass"
     ],
 
     removeTasks: {
-      common: ['concat', 'handlebars', 'jst', 'pages:dev'],
+      common: ['concat', 'less', 'handlebars', 'jst', 'pages:dev'],
       dist:   ["pages:dist"]
     },
     prependTasks: {
@@ -36,6 +37,19 @@ module.exports = function(lineman) {
     },
     appendTasks: {
       common: ["concat_sourcemap"]
+    },
+
+    // configuration for sass
+    sass: {
+      compile: {
+        options: {
+          loadPath:   [
+            "vendor/bower/foundation/scss",
+            "app/css"
+          ],
+          bundleExec: true
+        }
+      }
     },
 
     // configuration for grunt-haml
@@ -154,15 +168,11 @@ module.exports = function(lineman) {
         files: ["<%= files.css.vendor %>", "<%= files.css.app %>"],
         tasks: ["concat_sourcemap:css"]
       },
-      less: {
-        files: ["<%= files.less.vendor %>", "<%= files.less.app %>"],
-        tasks: ["less", "concat_sourcemap:css"]
-      },
       sass: {
-        files: ["<%= files.sass.vendor %>", "<%= files.sass.app %>"],
+        files: ["<%= files.css.vendor %>", "<%= files.sass.app %>"],
         tasks: ["sass", "concat_sourcemap:css"]
       }
-    }
+    },
 
     // API Proxying
     //
@@ -185,7 +195,7 @@ module.exports = function(lineman) {
     // have Ruby installed as well as the `sass` gem. To enable it, comment out the
     // following line:
     //
-    // enableSass: true
+    enableSass: true,
 
     // Asset Fingerprints
     //

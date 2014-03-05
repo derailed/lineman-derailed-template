@@ -1,10 +1,11 @@
 {
-  "name": "fred",
+  "name":    "Opiniato",
   "version": "0.0.1",
   "dependencies": {
     "underscore":       "~1.6.0",
-    "angular":          "1.2.15-build.2368+sha.d07101d",
-    "angular-route":    "1.2.15-build.2368+sha.d07101d",
-    "angular-resource": "1.2.15-build.2368+sha.d07101d"
+    "angular":          "1.2.14",
+    "angular-route":    "1.2.14",
+    "angular-resource": "1.2.14",
+    "foundation":       "~5.0.0"
   }
 }
