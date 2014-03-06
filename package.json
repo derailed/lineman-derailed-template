@@ -1,5 +1,5 @@
 {
-  "name":  "Opiniato",
+  "name": "Opiniato",
   "title": "An opiniated Lineman template",
   "version": "0.0.1",
   "private": true,
@@ -8,14 +8,15 @@
     "company": "Soulscast.io"
   },
   "devDependencies": {
-    "lineman":                 "^0.27.0",
-    "lineman-bower":           "0.0.3",
+    "lineman": "^0.27.0",
+    "lineman-bower": "0.0.3",
     "grunt-angular-templates": "~0.4.7",
-    "grunt":                   "~0.4.1",
-    "grunt-concat-sourcemap":  "~0.3.1",
-    "grunt-ngmin":             "0.0.3",
-    "grunt-haml":              "^0.9.0",
-    "grunt-contrib-sass":      "~0.7.2"
+    "grunt": "~0.4.1",
+    "grunt-concat-sourcemap": "~0.3.1",
+    "grunt-ngmin": "0.0.3",
+    "grunt-haml": "^0.9.0",
+    "grunt-contrib-sass": "~0.7.2",
+    "jasmine-given": "^2.6.0"
   },
   "scripts": {
     "start": "lineman run",
