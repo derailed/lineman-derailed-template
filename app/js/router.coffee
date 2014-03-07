@@ -1,10 +1,16 @@
 @app.config( ($routeProvider, $locationProvider) ->
+
   $locationProvider.html5Mode( true )
 
-  $routeProvider.when '/home', {
+  $routeProvider.when '/', {
     templateUrl: '/app/templates/home.html',
     controller:  'HomeCtrl'
   }
 
-  $routeProvider.otherwise { redirectTo: '/home' }
+  $routeProvider.when '/mybooks', {
+    templateUrl: '/app/templates/books/books.html',
+    controller:  'BooksCtrl'
+  }
+
+  $routeProvider.otherwise { redirectTo: '/' }
 )

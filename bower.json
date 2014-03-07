@@ -6,6 +6,8 @@
     "angular":          "1.2.14",
     "angular-route":    "1.2.14",
     "angular-resource": "1.2.14",
-    "foundation":       "~5.0.0"
+    "foundation":       "~5.0.0",
+    "bourbon":          "~3.2.0",
+    "moment":           "~2.5.1"
   }
 }

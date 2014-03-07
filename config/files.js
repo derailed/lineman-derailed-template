@@ -20,6 +20,7 @@ module.exports = function(lineman) {
         "vendor/bower/underscore/underscore.js",
         "vendor/bower/angular/angular.js",
         "vendor/bower/angular-route/angular-route.js",
+        "vendor/bower/angular-resource/angular-resource.js",
         "vendor/js/**/*.js"
       ],
       app: [
