@@ -1,6 +1,6 @@
-#DeRailed!!
-  Creating Web Apps In The Right `Gear...
-  An opiniated Lineman.js configuration using Angular, Bower and Ruby
+#DeRailed
+Creating Web Apps In The Right `Gear...
+An opiniated Lineman.js configuration using Angular, Bower and Ruby
 
 ## Motivation
   Getting started writing modern web apps has become increasingly 
