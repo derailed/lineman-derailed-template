@@ -1,6 +1,8 @@
 .DS_Store
 .sass-cache
 
+*.swp
+
 todo.txt
 
 /node_modules
