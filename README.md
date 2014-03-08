@@ -1,5 +1,6 @@
 #DeRailed
 Creating Web Apps In The Right `Gear...
+
 An opiniated Lineman.js configuration using Angular, Bower and Ruby
 
 ## Motivation
