@@ -1,10 +1,9 @@
 source 'https://rubygems.org'
 
 gem 'sass'
-gem 'capybara'
-gem 'poltergeist'
-gem 'rspec'
-gem 'rspec-extra-formatters'
+
+gem 'sinatra'
+gem 'shotgun'
 
 gem 'guard-livereload'
 gem 'rb-fchange', :require=>false

@@ -1,0 +1,78 @@
+// Derailed styles...
+
+// Foundation general configs
+$body-bg:           #f4f4f4;
+$rem-base:          16px;
+$header-font-color: #333;
+
+$panel-size:        180px;
+
+section {
+  text-align: left;
+  width:      100%;
+  min-height: 300px;
+  padding:    50px 50px 50px 50px;
+}
+
+.heading {
+  text-align: center;
+}
+section .title {
+  text-align: center;
+  font-size: 80px;
+}
+
+.logos {
+  background: #3B1840;
+}
+
+.install {
+  background: #2c2c2c;
+}
+.install > h1 {
+  color: #fff;
+}
+
+.text {
+  background: #f4f4f4;
+}
+
+.logo {
+  width:          $panel_size - 50;
+  height:         auto;
+  vertical-align: middle;
+}
+
+.helper {
+  display:        inline-block;
+  height:         100%;
+  vertical-align: middle;
+}
+
+.frame {
+  width:          $panel_size;
+  height:         $panel_size - 40;
+  text-align:     center;
+  vertical-align: middle;
+  display:        inline-block;
+  padding:        0px 5px;
+}
+
+.lineman {
+  background: #75FE04;
+}
+.foundation {
+  background: #074E68;
+}
+.bower {
+  background: #FFCC2F;
+}
+.angularjs {
+  background: #EEEEEE;
+}
+.sass {
+  background: #EFEFEF;
+}
+.coffeescript {
+  background: #E7E7E7;
+}

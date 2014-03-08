@@ -1,14 +1,54 @@
 !!! 5
 %html{ng-app:"app"}
   %head
-    %title Fred App
+    %title DeRailed!
+    %meta{name:'description', content:'Opiniated Lineman build using angularJS, Bower and Sinatra'}
     %link{rel:"stylesheet", type:"text/css", href:"css/app.css", media:"all"}
     %base{href:'/'}
 
+
   %body
-    %h1 Hello Fuckoroo! up Deal!
-    %a{href:"#home"}
-      Home
-    %div#view
+    %section.heading.text
+      .title DeRailed!!
+      %h6 Creating Web Apps In The Right `Gear...
+      %h4 An opiniated Lineman.js configuration using Angular, Bower and Ruby
+
+    %section.logos
       %ng-view
+
+    %section.text
+      %h1 Motivation
+      %p
+        Getting started writing modern web apps has become increasingly&nbsp;
+        difficult due the richness of OS front end contributions. <em>Lineman.js</em>&nbsp;
+        makes it easier to manage and configure the various frameworks that&nbsp;
+        compose a web application. That said, there are still way too much&nbsp;
+        plumbing to worry about when you are tasked to deliver your own web app.&nbsp;
+        <strong>DeRailed</strong> is very much opiniated and as such may or may not be your poison&nbsp;
+        of choice. Out of the box, we bundle <em>Haml</em>, <em>Coffeescript</em> and <em>Sass</em> and &nbsp;
+        pre-configure it for <em>AngularJS</em> development.&nbsp;
+        Thus, you can fire it up and start coding your angular app right out of the&nbsp;
+        gate. DeRailed also bundles <em>Bower</em>, which allows you to pull in&nbsp;
+        other librairies that complements your needs. By default we've linked in&nbsp;
+        <em>Foundation</em>,&nbsp;<em>Bourbon</em> and <em>MomentJs</em>.
+
+      %p
+        So that's the story on the WEB front end side of things. But there is more...
+
+      %p
+        More often than none, we find ourselves having to support other UIs,&nbsp;
+        notably for mobile or external apis. Typically this becomes an after&nbsp;
+        thought. On the ROR side, the answer for a while was: 'Oh just throw in&nbsp;
+        a json responder and you're all good'. And there lays the path to perdition...&nbsp;
+        Api's like anything else need to be thought out and designed. Having a&nbsp;
+        clear separation between external interfaces and your server is a good&nbsp;
+        thing whether these interfaces come in the shape of web, native or command line.&nbsp;
+        As such DeRailed bundles <em>Sinatra</em>. Yes, once again opiniated but nonetheless&nbsp;
+        offers an easy bridge to try out your server side api calls right away.&nbsp;
+
+    %section.install
+      %h1 Installation
+      %p.panel
+        > git clone git@github.com:derailed/derailed.git
+
     %script{type:"text/javascript", src:"js/app.js"}

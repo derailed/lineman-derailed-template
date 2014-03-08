@@ -3,13 +3,8 @@
   $locationProvider.html5Mode( true )
 
   $routeProvider.when '/', {
-    templateUrl: '/app/templates/home.html',
-    controller:  'HomeCtrl'
-  }
-
-  $routeProvider.when '/mybooks', {
-    templateUrl: '/app/templates/books/books.html',
-    controller:  'BooksCtrl'
+    templateUrl: '/templates/home/index.html',
+    controller:  'HomeController'
   }
 
   $routeProvider.otherwise { redirectTo: '/' }

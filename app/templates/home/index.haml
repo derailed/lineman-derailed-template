@@ -1,0 +1,5 @@
+%row
+  %colums.large-4.frame{ng-repeat:'framework in frameworks', ng-class:'framework.name|lowercase'}
+    %span.helper
+    %a{ng-href:"{{framework.url}}", target:'#'}
+      %img.logo{ng-src:'{{framework.image_url}}'}
