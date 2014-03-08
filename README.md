@@ -2,7 +2,7 @@
 
 Creating Web Apps In The Right `Gear...
 
-An opiniated Lineman.js configuration using Angular, Bower and Ruby
+An opiniated *Lineman.js* configuration using *Angular*, *Bower* and *Ruby*
 
 
 ## Motivation
@@ -11,7 +11,7 @@ An opiniated Lineman.js configuration using Angular, Bower and Ruby
   makes it easier to manage and configure the various frameworks that 
   compose a web application. That said, there are still way too much 
   plumbing to worry about when you are tasked to deliver your own web app. 
-  <strong>DeRailed</strong> is very much opiniated and as such may or may not be your poison 
+  *DeRailed* is very much opiniated and as such may or may not be your poison 
   of choice. Out of the box, we bundle _Haml_, _Coffeescript_ and _Sass_ and  
   pre-configure it for _AngularJS_ development. 
   Thus, you can fire it up and start coding your angular app right out of the 
