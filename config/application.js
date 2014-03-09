@@ -57,39 +57,6 @@ module.exports = function(lineman) {
       }
     },
 
-    // concat_sourcemap: {
-    //   options: {
-    //     sourcesContent: true
-    //   },
-    //   js: {
-    //     src: [
-    //       "<%= files.js.vendor %>",
-    //       "<%= files.coffee.generated %>",
-    //       "<%= files.js.app %>",
-    //       "<%= files.ngtemplates.dest %>"
-    //     ],
-    //     dest: "<%= files.js.concatenated %>"
-    //   },
-    //   spec: {
-    //     src: [
-    //       "<%= files.js.specHelpers %>",
-    //       "<%= files.coffee.generatedSpecHelpers %>",
-    //       "<%= files.js.spec %>",
-    //       "<%= files.coffee.generatedSpec %>"
-    //     ],
-    //     dest: "<%= files.js.concatenatedSpec %>"
-    //   },
-    //   css: {
-    //     src: [
-    //       "<%= files.sass.generatedVendor %>",
-    //       "<%= files.css.vendor %>",
-    //       "<%= files.sass.generatedApp %>",
-    //       "<%= files.css.app %>"
-    //     ],
-    //     dest: "<%= files.css.concatenated %>"
-    //   }
-    // },
-
     watch: {
       pages: {
         files: ["<%= files.pages.source %>"],
