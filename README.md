@@ -41,6 +41,7 @@ An opinionated *Lineman.js* configuration using *Angular*, *Bower* and *Ruby*
     $ cd derailed_app
     $ npm install
     $ rm -rf .git
+    $ open http://localhost:8000
   ```
 
 ## Running Tasks and Specs

@@ -1,4 +1,4 @@
-%row
-  %colums.large-4.frame{ng-repeat:'framework in frameworks', ng-class:'framework.name|lowercase'}
+%row.frameworks
+  %columns.large-4.frame{ng-repeat:'framework in frameworks', ng-class:'framework.name|lowercase'}
     %span.helper
     %framework{url:"{{framework.url}}", image:"{{framework.image_url}}"}
