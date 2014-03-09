@@ -29,6 +29,8 @@ An opinionated *Lineman.js* configuration using *Angular*, *Bower* and *Ruby*
   thing whether these interfaces come in the shape of web, native or command line. 
   As such DeRailed bundles _Sinatra_. Yes, once again opinionated but nonetheless 
   offers an easy bridge to try out your server side api calls right away. 
+  
+  View the sample DeRailed **Sinatra** app [DeRailed](http://lineman-derailed.herokuapp.com/) 
 
 ## Installation
       

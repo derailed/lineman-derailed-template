@@ -2,10 +2,9 @@ require 'sinatra'
 require 'json'
 
 set :public_folder, File.join( File.dirname(__FILE__), %w[assets] )
-# set :views, File.join( File.dirname(__FILE__), %w[.. generated] )
 
 get '/' do
-  send_file File.join( File.dirname(__FILE__), %w[.. generated index.html] )
+  send_file File.join( File.dirname(__FILE__), %w[assets index.html] )
 end
 
 get '/api/v1/frameworks/index.json', provides: :json do
@@ -36,8 +35,8 @@ get '/api/v1/frameworks/index.json', provides: :json do
       image_url: 'http://sass-lang.com/assets/img/logo-235e394c.png'
     },
     {
-      name: 'Coffeescript',
-      url:  'http://coffeescript.org/',
+      name:      'Coffeescript',
+      url:       'http://coffeescript.org/',
       image_url: 'http://coffeescript.org/documentation/images/logo.png'
     }
   ].to_json
