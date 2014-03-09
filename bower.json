@@ -8,6 +8,7 @@
     "angular-resource": "1.2.14",
     "foundation":       "~5.0.0",
     "bourbon":          "~3.2.0",
-    "moment":           "~2.5.1"
+    "moment":           "~2.5.1",
+    "fontawesome":      "~4.0.3"
   }
 }

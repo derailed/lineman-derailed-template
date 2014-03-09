@@ -25,6 +25,7 @@ module.exports = function(lineman) {
         options: {
           loadPath:   [
             "vendor/bower/foundation/scss",
+            "vendor/bower/fontawesome/scss",
             "app/css"
           ],
           bundleExec: true

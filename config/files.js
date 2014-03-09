@@ -19,6 +19,8 @@ module.exports = function(lineman) {
         options: {
           loadPath: [
             "vendor/bower/foundation/*.scss",
+            "vendor/bower/fontawesome/scss/*.scss",
+            "vendor/bower/bourbon/**/*.scss",
             "app/css/**/*.scss"
           ]
         }

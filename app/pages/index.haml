@@ -8,10 +8,12 @@
 
   %body
     %section.heading.text
-      .title DeRailed!!
+      .title DeRailed!
       %h6 Creating Web Apps In The Right `Gear...
       %h4 An opinionated Lineman.js configuration using Angular, Bower and Ruby
-
+      %a{href:'https://github.com/derailed/lineman-derailed-template', target:'#'}
+        %i.fa.fa-github.fa-5x
+      
     %section.logos
       %ng-view
 
@@ -66,7 +68,8 @@
         %br
         $ npm install
         %br
-        $ rm -rf .git
+        $ open http://localhost:8000
+
 
     %section.run
       %h1 Running Tasks and Specs

@@ -39,7 +39,7 @@ An opinionated *Lineman.js* configuration using *Angular*, *Bower* and *Ruby*
 
   ```
     $ npm install -g lineman
-    $ git clone git@github.com:derailed/derailed.git derailed_app
+    $ git clone git@github.com:derailed/lineman-derailed-template.git derailed_app
     $ cd derailed_app
     $ npm install
     $ rm -rf .git
