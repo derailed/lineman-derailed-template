@@ -20,7 +20,7 @@ An opinionated *Lineman.js* configuration using *Angular*, *Bower* and *Ruby*
   start coding your angular app right out of the gate. DeRailed also bundles 
   _Bower_, which allows you to pull in other libraries that complements your 
   needs. By default we've linked in _Foundation_, _Bourbon_ and _MomentJs_.
-  
+
   So that's the story on the WEB front end side of things. But there is more...
 
   More often than none, we find ourselves having to support other UIs, 
@@ -31,12 +31,12 @@ An opinionated *Lineman.js* configuration using *Angular*, *Bower* and *Ruby*
   clear separation between external interfaces and your server is a good 
   thing whether these interfaces come in the shape of web, native or command line. 
   As such DeRailed bundles _Sinatra_. Yes, once again opinionated but nonetheless 
-  offers an easy bridge to try out your server side api calls right away. 
-  
-  View the sample DeRailed **Sinatra** app [DeRailed](http://lineman-derailed.herokuapp.com/) 
+  offers an easy bridge to try out your server side api calls right away.
+
+  View the sample DeRailed **Sinatra** app [DeRailed](http://lineman-derailed.herokuapp.com/)
 
 ## Installation
-      
+
   You will need to install [Nodejs](http://nodejs.org) and [Npm](http://npmjs.org)
   in order to run lineman.js
 
@@ -46,6 +46,8 @@ An opinionated *Lineman.js* configuration using *Angular*, *Bower* and *Ruby*
     $ cd derailed_app
     $ npm install
     $ rm -rf .git
+    $ bundle
+    $ ruby server/api.rb
     $ open http://localhost:8000
   ```
 
@@ -55,6 +57,6 @@ An opinionated *Lineman.js* configuration using *Angular*, *Bower* and *Ruby*
     $ lineman spec
     $ lineman grunt spec-e2e
   ```
-  
+
 ## License
-  DeRailed is released under the [MIT](http://opensource.org/licenses/MIT) license.  
+  DeRailed is released under the [MIT](http://opensource.org/licenses/MIT) license
