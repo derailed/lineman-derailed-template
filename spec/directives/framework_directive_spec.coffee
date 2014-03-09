@@ -11,4 +11,4 @@ describe "Framework directive", ->
   it "populate frameworks correctly", ->
     img = @res.find('img')[0]
     expect( img ).toNotBe  null
-    expect( img.src ).toBe 'http://localhost:7357/blee.png'
+    expect( img.src ).toMatch /\.*blee.png$/
