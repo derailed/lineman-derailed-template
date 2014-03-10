@@ -1,12 +1,9 @@
-#DeRailed!
+#DeRailed! [![Build Status](https://travis-ci.org/derailed/lineman-derailed-template.png?branch=master)](https://travis-ci.org/derailed/lineman-derailed-template)
 
 Creating Web Apps In The Right `Gear...
 
 An opinionated *Lineman.js* configuration using *Angular*, *Bower* and *Ruby*
 
-## Status
-
-[![Build Status](https://travis-ci.org/derailed/lineman-derailed-template.png?branch=master)](https://travis-ci.org/derailed/lineman-derailed-template)
 
 ## Motivation
   Getting started writing modern web apps has become increasingly 
