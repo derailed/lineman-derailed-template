@@ -104,6 +104,12 @@ module.exports = function(lineman) {
     // Sass
     enableSass: true,
 
+    webfonts: {
+      files: {
+        "vendor/bower/fontawesome/fonts/": "vendor/bower/fontawesome/fonts/*.*"
+      }
+    }
+    
     // Asset Fingerprints
     //
     // Lineman can fingerprint your static assets by appending a hash to the filename
