@@ -13,56 +13,56 @@
       %h4 An opinionated Lineman.js configuration using Angular, Bower and Ruby
       %a{href:'https://github.com/derailed/lineman-derailed-template', target:'#'}
         %i.fa.fa-github.fa-5x
-      
+
     %section.logos
       %ng-view
 
     %section.text
       %h1 Motivation
       %p
-        Getting started writing modern web apps has become increasingly 
-        difficult due the richness of OS front end contributions. <em>Lineman.js</em> 
-        makes it easier to manage and configure the various frameworks that 
-        compose a web application. That said, there are still way too much 
-        plumbing to worry about when you are tasked to deliver your own web app. 
-        <strong>DeRailed</strong> is very much opinionated and as such may or may not be your poison 
-        of choice. Out of the box, we bundle <em>Haml</em>, <em>Coffeescript</em> and <em>Sass</em> and  
-        pre-configure it for <em>AngularJS</em> development. 
-        Thus, you can fire it up and start coding your angular app right out of the 
-        gate. DeRailed also bundles <em>Bower</em>, which allows you to pull in 
-        other libraries that complements your needs. By default we've linked in 
+        Getting started writing modern web apps has become increasingly
+        difficult due the richness of OS front end contributions. <em>Lineman.js</em>
+        makes it easier to manage and configure the various frameworks that
+        compose a web application. That said, there are still way too much
+        plumbing to worry about when you are tasked to deliver your own web app.
+        <strong>DeRailed</strong> is very much opinionated and as such may or may not be your poison
+        of choice. Out of the box, we bundle <em>Haml</em>, <em>Coffeescript</em> and <em>Sass</em> and
+        pre-configure it for <em>AngularJS</em> development.
+        Thus, you can fire it up and start coding your angular app right out of the
+        gate. DeRailed also bundles <em>Bower</em>, which allows you to pull in
+        other libraries that complements your needs. By default we've linked in
         <em>Foundation</em>, <em>Bourbon</em> and <em>MomentJs</em>.
 
       %p
         So that's the story on the WEB front end side of things. But there is more...
 
       %p
-        More often than none, we find ourselves having to support other UIs, 
-        notably for mobile or external apis. Typically this becomes an after 
-        thought. On the ROR side, the answer for a while was: 'Oh just throw in 
-        a json responder and you're all good'. And there lays the path to perdition... 
-        Api's like anything else need to be thought out and designed. Having a 
-        clear separation between external interfaces and your server is a good 
-        thing whether these interfaces come in the shape of web, native or command line. 
-        As such DeRailed bundles <em>Sinatra</em>. Yes, once again opinionated but nonetheless 
-        offers an easy bridge to try out your server side api calls right away. 
+        More often than none, we find ourselves having to support other UIs,
+        notably for mobile or external apis. Typically this becomes an after
+        thought. On the ROR side, the answer for a while was: 'Oh just throw in
+        a json responder and you're all good'. And there lays the path to perdition...
+        Api's like anything else need to be thought out and designed. Having a
+        clear separation between external interfaces and your server is a good
+        thing whether these interfaces come in the shape of web, native or command line.
+        As such DeRailed bundles <em>Sinatra</em>. Yes, once again opinionated but nonetheless
+        offers an easy bridge to try out your server side api calls right away.
 
     %section.install
       %h1 Installation
-      
-      %p 
-        You will need to install 
+
+      %p
+        You will need to install
         %a{src:"http://nodejs.org"}
-          Nodejs 
-        and 
+          Nodejs
+        and
         %a{src="http://npmjs.org"}
-          Npm 
+          Npm
         in order to run lineman.js
-        
+
       %p.panel
         $ npm install -g lineman
         %br
-        $ git clone git@github.com:derailed/derailed.git derailed_app
+        $ git clone git@github.com:derailed/lineman-derailed-template.git derailed_app
         %br
         $ cd derailed_app
         %br
